@@ -1,0 +1,11 @@
+.recommend-article {
+    color: #000000;
+    padding-top: 10px;
+}
+
+// Recommend Article Elements
+@import 'recommend-article__item';
+@import 'recommend-article__img';
+@import 'recommend-article__details';
+@import 'recommend-article__title';
+@import 'recommend-article__date';

@@ -1,0 +1,22 @@
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 418px;
+    width: 100%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/*
+Slide Elements
+*/
+@import 'slide__title';
+@import 'slide__content';
+@import 'slide__description';

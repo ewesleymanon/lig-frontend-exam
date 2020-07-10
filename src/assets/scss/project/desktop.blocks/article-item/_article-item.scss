@@ -1,0 +1,17 @@
+.article-item {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 50px;
+
+    &:hover .article-item__title {
+        color: #e7ba2f;
+    }
+}
+
+// Article Item Elements
+@import 'article-item__details';
+@import 'article-item__date';
+@import 'article-item__title';
+@import 'article-item__description';
+@import 'article-item__img';

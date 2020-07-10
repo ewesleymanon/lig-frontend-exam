@@ -1,0 +1,28 @@
+.btn-more {
+    background: #333333;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 480px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  
+    &::after {
+        border-right: 2px solid #fff;
+        border-top: 2px solid #fff;
+        content: "";
+        display: inline-block;
+        height: 0.5em;
+        position: absolute;
+        right: 20px;
+        transform: rotate(45deg);
+        transition: 0.3s;
+        width: 0.5em;
+    }
+}

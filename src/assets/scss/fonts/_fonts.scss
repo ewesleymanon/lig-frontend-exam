@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Lucida Calligraphy Italic';
+    src: url("./assets/fonts/LucidaCalligraphyItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'YuGo Bold';
+    src: url("./assets/fonts/yugothib.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'YuGo Medium';
+    src: url("./assets/fonts/yugothil.ttf") format('truetype');
+}
+
+#app {
+    font-family: Helvetica, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro",
+      "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック",
+      "MS PGothic", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    color: #2c3e50;
+}
